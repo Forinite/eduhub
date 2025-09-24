@@ -62,8 +62,8 @@ const MainPage = () => {
                 {gst112Shorts.map((short) => (
                     <div
                         key={short.id}
-                        className="w-[400px] h-screen mx-auto flex items-center justify-center snap-start relative"
-                    >
+                        className="max-w-[400px] w-[90%] h-screen mx-auto flex items-center justify-center snap-start relative"
+                    
                         <div className="h-[90%] w-full flex flex-col items-center justify-center border py-12 px-4 relative">
                             {short.image && (
                                 <Image
