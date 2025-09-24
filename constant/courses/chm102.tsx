@@ -1109,7 +1109,7 @@ export const Chm102MOD6Shorts = [
     }
 ];
 
-export const Chm102Shorts = [
+export const gst112Shorts = [
     ...Chm102MOD5Shorts,
     ...Chm102MOD6Shorts,
 ]

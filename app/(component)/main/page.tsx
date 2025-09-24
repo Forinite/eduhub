@@ -1,7 +1,8 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
 import Image from "next/image";
-import { Chm102Shorts } from "@/constant/courses/chm102";
+import {gst112Shorts} from "@/constant/courses/gst112";
+
 // import Recorder from "@/app/component/recorder";
 
 const MainPage = () => {
@@ -13,7 +14,7 @@ const MainPage = () => {
         const handleKeyDown = (e: KeyboardEvent) => {
             if (e.key === "ArrowDown" || e.key === "ArrowRight" || e.key === "s" || e.key === "d") {
                 setCurrentIndex((prev) =>
-                    Math.min(prev + 1, Chm102Shorts.length - 1)
+                    Math.min(prev + 1, gst112Shorts.length - 1)
                 );
             } else if (e.key === "ArrowUp" || e.key === "ArrowLeft" || e.key === "w" || e.key === "a" ) {
                 setCurrentIndex((prev) => Math.max(prev - 1, 0));
@@ -58,7 +59,7 @@ const MainPage = () => {
                 ref={containerRef}
                 className="w-full h-screen overflow-y-scroll snap-y snap-mandatory scrollbar-hide"
             >
-                {Chm102Shorts.map((short) => (
+                {gst112Shorts.map((short) => (
                     <div
                         key={short.id}
                         className="w-[400px] h-screen mx-auto flex items-center justify-center snap-start relative"
