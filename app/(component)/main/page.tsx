@@ -2,12 +2,12 @@
 import React, { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import { Chm102Shorts } from "@/constant/courses/chm102";
-import Recorder from "@/app/component/recorder";
+// import Recorder from "@/app/component/recorder";
 
 const MainPage = () => {
     const containerRef = useRef<HTMLDivElement>(null);
     const [currentIndex, setCurrentIndex] = useState(0);
-    const [audioMap, setAudioMap] = useState<Record<string, string>>({});
+    // const [audioMap, setAudioMap] = useState<Record<string, string>>({});
 
     useEffect(() => {
         const handleKeyDown = (e: KeyboardEvent) => {
@@ -34,23 +34,23 @@ const MainPage = () => {
         }
     }, [currentIndex]);
 
-    // Check audio existence for each short when component mounts
-    useEffect(() => {
-        const checkFiles = async () => {
-            const results: Record<string, string> = {};
-            for (const short of Chm102Shorts) {
-                const res = await fetch(`/api/check-audio?id=${short.id}`);
-                if (res.ok) {
-                    const data = await res.json();
-                    if (data.exists) {
-                        results[short.id] = data.url;
-                    }
-                }
-            }
-            setAudioMap(results);
-        };
-        checkFiles();
-    }, []);
+    // // Check audio existence for each short when component mounts
+    // useEffect(() => {
+    //     const checkFiles = async () => {
+    //         const results: Record<string, string> = {};
+    //         for (const short of Chm102Shorts) {
+    //             const res = await fetch(`/api/check-audio?id=${short.id}`);
+    //             if (res.ok) {
+    //                 const data = await res.json();
+    //                 if (data.exists) {
+    //                     results[short.id] = data.url;
+    //                 }
+    //             }
+    //         }
+    //         setAudioMap(results);
+    //     };
+    //     checkFiles();
+    // }, []);
 
     return (
         <div className="flex justify-center w-full bg-white text-black">
@@ -82,22 +82,22 @@ const MainPage = () => {
                             </div>
 
                             <div className="absolute bottom-16 right-4">
-                                <Recorder
-                                    shortId={short.id}
-                                    onSave={(id, path) => {
-                                    // after upload, refresh file check
-                                    setAudioMap((prev) => ({ ...prev, [id]: path }))}} />
+                                {/*<Recorder*/}
+                                {/*    shortId={short.id}*/}
+                                {/*    onSave={(id, path) => {*/}
+                                {/*    // after upload, refresh file check*/}
+                                {/*    setAudioMap((prev) => ({ ...prev, [id]: path }))}} />*/}
                             </div>
 
                             {/* ✅ Show playback if file exists */}
-                            {audioMap[short.id] && (
-                                <audio
-                                    controls
-                                    className="absolute bottom-4 left-1/2 -translate-x-1/2 w-64"
-                                >
-                                    <source src={audioMap[short.id]} type="audio/webm" />
-                                </audio>
-                            )}
+                            {/*{audioMap[short.id] && (*/}
+                            {/*    <audio*/}
+                            {/*        controls*/}
+                            {/*        className="absolute bottom-4 left-1/2 -translate-x-1/2 w-64"*/}
+                            {/*    >*/}
+                            {/*        <source src={audioMap[short.id]} type="audio/webm" />*/}
+                            {/*    </audio>*/}
+                            {/*)}*/}
                         </div>
                     </div>
                 ))}
