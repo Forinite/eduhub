@@ -59,12 +59,17 @@ const MainPage = () => {
                 ref={containerRef}
                 className="w-full h-screen overflow-y-scroll snap-y snap-mandatory scrollbar-hide"
             >
-                {gst112Shorts.map((short) => (
+                {gst112Shorts.map((short, index) => (
                     <div
                         key={short.id}
-                        className="max-w-[400px] w-[90%] h-screen mx-auto flex items-center justify-center snap-start relative py-8"
+                        className="max-w-[400px] w-[90%] h-screen mx-auto flex items-center justify-center snap-start relative py-8 "
                     >
                         <div className="h-[85vh] w-full flex flex-col items-center justify-center border py-12 px-4 relative">
+                            <div className="absolute  -top-2 right-2 w-fit h-fit px-2.5 bg-white rounded-full" >
+                                <div className="flex items-center text-sm">
+                                    {index + 1}/{gst112Shorts.length}
+                                </div>
+                            </div>
                             {short.image && (
                                 <Image
                                     src={short.image}
