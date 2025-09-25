@@ -68,14 +68,14 @@ const Shorts = () => {
                         setCourseShorts(GET102Shorts)
                     }}
 
-                    className="border  w-fit px-4 h-fit py-1 rounded-xs text-xs uppercase cursor-pointer hover:scale-110">
+                    className="border bg-white w-fit px-4 h-fit py-1 rounded-xs text-xs uppercase cursor-pointer hover:scale-110 transition-all">
                     get102
                 </div>
                 <div
                     onClick={() =>{
                         setCourseShorts(gst112Shorts)
                     }}
-                    className="border w-fit px-4 h-fit py-1 rounded-xs text-xs uppercase cursor-pointer">
+                    className="border bg-white w-fit px-4 h-fit py-1 rounded-xs text-xs uppercase cursor-pointer hover:scale-110 transition-all">
                     gst112
                 </div>
             </div>
