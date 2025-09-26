@@ -3,14 +3,14 @@
 import React, {useEffect, useRef, useState} from 'react'
 import Image from "next/image";
 import {GET102Shorts} from "@/constant/courses/get102";
-import {gst112Shorts} from "@/constant/courses/gst112";
+import {gst112Shorts, gst112ShortsM2} from "@/constant/courses/gst112";
 
 
 const Shorts = () => {
     const containerRef = useRef<HTMLDivElement>(null);
     const [currentIndex, setCurrentIndex] = useState(0);
     // const [audioMap, setAudioMap] = useState<Record<string, string>>({});
-    const [courseShorts, setCourseShorts] = useState(GET102Shorts);
+    const [courseShorts, setCourseShorts] = useState(gst112Shorts);
 
     useEffect(() => {
 
@@ -57,27 +57,28 @@ const Shorts = () => {
     //     checkFiles();
     // }, []);
 
+    const navList = [
+        {navName: "gst112", course: gst112Shorts },
+        {navName: "gst Lect Note", course: gst112Shorts.slice(0,88) },
+        {navName: "gst MOD 2", course: gst112ShortsM2 },
+    ]
     return (
         <div className="flex justify-center w-full bg-white text-black">
 
             <div
                 className="flex gap-4  pt-3 absolute z-30 items-center justify-center w-full"
             >
-                <div
-                    onClick={() =>{
-                        setCourseShorts(GET102Shorts)
-                    }}
 
-                    className="border bg-white w-fit px-4 h-fit py-1 rounded-xs text-xs uppercase cursor-pointer hover:scale-110 transition-all">
-                    get102
-                </div>
-                <div
-                    onClick={() =>{
-                        setCourseShorts(gst112Shorts)
-                    }}
-                    className="border bg-white w-fit px-4 h-fit py-1 rounded-xs text-xs uppercase cursor-pointer hover:scale-110 transition-all">
-                    gst112
-                </div>
+                {navList.map((nav, index) => (
+                    <div
+                        key={index}
+                        onClick={() => {
+                            setCourseShorts(nav.course)
+                        }}
+                        className="border bg-white w-fit px-4 h-fit py-1 rounded-xs text-[11px] uppercase cursor-pointer hover:scale-110 transition-all">
+                        {nav.navName}
+                    </div>
+                ))}
             </div>
 
             <div

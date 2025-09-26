@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="56ec8f5e-6eaa-4260-84b3-9b34f35e35f9" name="Changes" comment="Course change edit commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constant/courses/get102.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/constant/courses/get102.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/component/shorts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/component/shorts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constant/courses/gst112.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/constant/courses/gst112.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +106,7 @@
       <workItem from="1758791822876" duration="4698000" />
       <workItem from="1758829979758" duration="4447000" />
       <workItem from="1758835763266" duration="3457000" />
+      <workItem from="1758906491206" duration="6250000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -213,7 +215,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/constant/courses/gst112.tsx</url>
-          <properties lambdaOrdinal="-1" />
+          <line>1811</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
