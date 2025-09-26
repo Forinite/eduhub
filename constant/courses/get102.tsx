@@ -1,3 +1,728 @@
+
+
+export const get102ShortsSections = [
+    {
+        id: "GET102_MOD1_1",
+        title: "GET102 MOD 1",
+        text: "The multi-view or orthographic method is used to draw objects, effectively illustrating their external features.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_2",
+        title: "GET102 MOD 1",
+        text: "In orthographic representation, complicated interior features are shown using hidden lines.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_3",
+        title: "GET102 MOD 1",
+        text: "Sectional views are used to clearly display interior features that are obscured by hidden lines in orthographic drawings.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_4",
+        title: "GET102 MOD 1",
+        text: "Sectioning involves an imaginary cut through an object to expose its interior or reveal the shape of a portion.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_5",
+        title: "GET102 MOD 1",
+        text: "A sectional view shows an imaginary surface exposed by slicing open an object to reveal interior details.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_6",
+        title: "GET102 MOD 1",
+        text: "Sectional views are often called cross sections or simply sections, showing a substantial portion of the object.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_7",
+        title: "GET102 MOD 1",
+        text: "A cutting plane is an imaginary plane that cuts through an object to reveal its internal features.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_8",
+        title: "GET102 MOD 1",
+        text: "The cutting plane line represents the edge view of the cutting plane in a drawing.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_9",
+        title: "GET102 MOD 1",
+        text: "The cutting-plane line shows the path an imaginary cutting plane takes to slice through an object.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_10",
+        title: "GET102 MOD 1",
+        text: "Think of the cutting-plane line as a saw blade used to cut through the object in a drawing.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_11",
+        title: "GET102 MOD 1",
+        text: "The cutting-plane line is depicted as a thick black dashed line in technical drawings.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_12",
+        title: "GET102 MOD 1",
+        text: "Section lining indicates where the object is sliced by the cutting plane in a sectional view.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_13",
+        title: "GET102 MOD 1",
+        text: "Section lining shows the surfaces cut by the cutting plane, highlighting the exposed areas.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_14",
+        title: "GET102 MOD 1",
+        text: "Different materials have unique section lining symbols, but cast iron cross-hatch lines are commonly used.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_15",
+        title: "GET102 MOD 1",
+        text: "Section lining consists of thin, black lines typically drawn at 45° to the horizontal.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_16",
+        title: "GET102 MOD 1",
+        text: "Section lining may use a different angle if 45° conflicts with the object's features.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_17",
+        title: "GET102 MOD 1",
+        text: "Section lines are spaced by eye from 1/16\" (1.5mm) to 1/4\" (6 mm) apart, based on object size.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_18",
+        title: "GET102 MOD 1",
+        text: "The average spacing for section lines in most drawings is .13\" (3 mm).",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_19",
+        title: "GET102 MOD 1",
+        text: "All section lines in a drawing must be of uniform thickness and evenly spaced.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_20",
+        title: "GET102 MOD 1",
+        text: "When a cutting plane passes through two parts, each part uses section lines at a 45° angle.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_21",
+        title: "GET102 MOD 1",
+        text: "Section lines for two parts should not be aligned in the same direction to avoid confusion.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_22",
+        title: "GET102 MOD 1",
+        text: "If a cutting plane passes through more than two parts, each part’s section lines use different angles.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_23",
+        title: "GET102 MOD 1",
+        text: "When using angles other than 45° for section lining, 30° or 60° are preferred.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_24",
+        title: "GET102 MOD 1",
+        text: "Section lining should not be parallel to the sides of the object being sectioned.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_25",
+        title: "GET102 MOD 1",
+        text: "Common types of sections include full, offset, half, broken-out, revolved, removed, and auxiliary sections.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_26",
+        title: "GET102 MOD 1",
+        text: "This course focuses on the most commonly used section types in technical drawings.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_27",
+        title: "GET102 MOD 1",
+        text: "A full section is a view where one of the regular multi views is cut completely in two.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_28",
+        title: "GET102 MOD 1",
+        text: "In a full section, the cutting plane passes through the entire object to create the view.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_29",
+        title: "GET102 MOD 1",
+        text: "Hidden lines are omitted in a full sectional view to enhance clarity.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_30",
+        title: "GET102 MOD 1",
+        text: "An offset section is used when important features do not align in a straight line.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_31",
+        title: "GET102 MOD 1",
+        text: "Offset sections involve bending or offsetting the cutting-plane line to capture key features.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_32",
+        title: "GET102 MOD 1",
+        text: "An offset section is similar to a full section but uses a non-straight cutting-plane line.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_33",
+        title: "GET102 MOD 1",
+        text: "A half sectional view is created by passing the cutting plane halfway through an object.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_34",
+        title: "GET102 MOD 1",
+        text: "In a half section, a quarter portion of the object is imagined to be removed.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_35",
+        title: "GET102 MOD 1",
+        text: "A half section uses a cutting plane with one arrowhead to indicate the viewing direction.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_36",
+        title: "GET102 MOD 1",
+        text: "Half sections are ideal for symmetrical objects with identical shapes on both sides of the cutting plane.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_37",
+        title: "GET102 MOD 1",
+        text: "A half-section view shows both the inside and outside of an object in the same view.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_38",
+        title: "GET102 MOD 1",
+        text: "A center line separates the sectioned half from the unsectioned half in a half section view.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_39",
+        title: "GET102 MOD 1",
+        text: "Hidden lines are omitted in half sectional views to maintain clarity.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_40",
+        title: "GET102 MOD 1",
+        text: "A broken-out section is used to section only a small area to clarify specific features.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_41",
+        title: "GET102 MOD 1",
+        text: "Broken-out sections show a fractional part of an object without affecting essential features.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_42",
+        title: "GET102 MOD 1",
+        text: "Broken-out sections are useful when full or half sections would remove critical object features.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_43",
+        title: "GET102 MOD 1",
+        text: "In a broken-out section, the cutting plane is normal to the viewing direction.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_44",
+        title: "GET102 MOD 1",
+        text: "A break line separates the sectioned portion from the unsectioned portion in a broken-out section.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_45",
+        title: "GET102 MOD 1",
+        text: "Broken-out sections do not use a cutting plane line in the drawing.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_46",
+        title: "GET102 MOD 1",
+        text: "Revolved sections can be confusing and are less preferred for technical drawings.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_47",
+        title: "GET102 MOD 1",
+        text: "Removed sections are recommended over revolved sections for clearer interpretation.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_48",
+        title: "GET102 MOD 1",
+        text: "A removed section is drawn away from the regular views, unlike a revolved section.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_49",
+        title: "GET102 MOD 1",
+        text: "Removed sections illustrate cross sections of ribs, webs, bars, arms, or spokes.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_50",
+        title: "GET102 MOD 1",
+        text: "A removed section must identify the cutting-plane line from which it was taken.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_51",
+        title: "GET102 MOD 1",
+        text: "In a removed section, only the actual section is drawn, excluding other features.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_52",
+        title: "GET102 MOD 1",
+        text: "Removed sections should be drawn on the same page as the regular views.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_53",
+        title: "GET102 MOD 1",
+        text: "Invisible features in projected views are shown using hidden lines, which can complicate drawings.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_54",
+        title: "GET102 MOD 1",
+        text: "When hidden lines are too numerous, sectional views simplify interpretation by removing part of the object.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_55",
+        title: "GET102 MOD 1",
+        text: "The surface produced by cutting an object with a section plane is called a section.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_56",
+        title: "GET102 MOD 1",
+        text: "A sectional view projects the section along with the remaining part of the object.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_57",
+        title: "GET102 MOD 1",
+        text: "Cutting plane lines are marked with arrows and capital letters, such as A-A, to show viewing direction.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_58",
+        title: "GET102 MOD 1",
+        text: "Sight arrows on cutting plane lines are always perpendicular to the cutting plane.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_59",
+        title: "GET102 MOD 1",
+        text: "The direction of sight arrows indicates the line of sight for the sectional view.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_60",
+        title: "GET102 MOD 1",
+        text: "Section lines are drawn evenly spaced at 45° to the axis or main outline of the section.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_61",
+        title: "GET102 MOD 1",
+        text: "Section lines can be drawn at 30° or 60° if 45° is unsuitable for the drawing.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_62",
+        title: "GET102 MOD 1",
+        text: "Section lines are drawn with a 2H or 3H pencil for precision and clarity.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_63",
+        title: "GET102 MOD 1",
+        text: "Section line spacing varies from 1.5 mm for small sections to 3 mm for large sections.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_64",
+        title: "GET102 MOD 1",
+        text: "The cast iron symbol is commonly used for section lines regardless of material type.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_65",
+        title: "GET102 MOD 1",
+        text: "Orthographic projection creates multiple 2D views of an object at right angles to each other.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_66",
+        title: "GET102 MOD 1",
+        text: "Orthographic projection fully describes even the most complex shapes using 2D views.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_67",
+        title: "GET102 MOD 1",
+        text: "Orthographic projection uses two principal planes: horizontal (HP) and vertical (VP), intersecting each other.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_68",
+        title: "GET102 MOD 1",
+        text: "3D projections resemble the designer’s vision but often lack detail and distort shapes.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_69",
+        title: "GET102 MOD 1",
+        text: "In isometric 3D projections, circular holes appear as ellipses, causing distortion.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_70",
+        title: "GET102 MOD 1",
+        text: "Orthographic projections overcome the weaknesses of 3D projections by providing accurate 2D views.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_71",
+        title: "GET102 MOD 1",
+        text: "Orthographic projection is a parallel projection technique with lines of sight perpendicular to the plane.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_72",
+        title: "GET102 MOD 1",
+        text: "Orthographic views depend on the object’s position relative to the line of sight.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_73",
+        title: "GET102 MOD 1",
+        text: "Orthographic views use multiple perspectives rotated 90° around the object’s center.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_74",
+        title: "GET102 MOD 1",
+        text: "Orthographic views represent the accurate shape and size of an object’s features.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_75",
+        title: "GET102 MOD 1",
+        text: "Orthographic projections include European ISO-E (first-angle) and American ISO-A (third-angle) standards.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_76",
+        title: "GET102 MOD 1",
+        text: "First-angle projection is denoted by a truncated cone symbol labeled FR.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_77",
+        title: "GET102 MOD 1",
+        text: "Third-angle projection is denoted by a truncated cone symbol labeled US.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_78",
+        title: "GET102 MOD 1",
+        text: "Edges in orthographic drawings are lines representing boundaries between two faces.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_79",
+        title: "GET102 MOD 1",
+        text: "Corners are intersections of two or more edges in an object’s drawing.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_80",
+        title: "GET102 MOD 1",
+        text: "Surfaces are areas bounded by edges or a limiting element in technical drawings.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_81",
+        title: "GET102 MOD 1",
+        text: "A limiting element is a line representing the last visible part of a curved surface.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_82",
+        title: "GET102 MOD 1",
+        text: "Principal planes are parallel to principal orthographic planes and appear true size in one view.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_83",
+        title: "GET102 MOD 1",
+        text: "Principal planes appear as edge views in the other two orthographic planes.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_84",
+        title: "GET102 MOD 1",
+        text: "Inclined planes are perpendicular to two opposite orthographic planes in a drawing.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_85",
+        title: "GET102 MOD 1",
+        text: "Oblique planes are neither parallel nor perpendicular to principal orthographic planes.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_86",
+        title: "GET102 MOD 1",
+        text: "Visible lines in drawings represent features that can be seen in the current view.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_87",
+        title: "GET102 MOD 1",
+        text: "Hidden lines represent features that cannot be seen in the current view of the object.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_88",
+        title: "GET102 MOD 1",
+        text: "Center lines indicate symmetry, motion paths, circle centers, or axes of symmetrical parts.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_89",
+        title: "GET102 MOD 1",
+        text: "Dimension and extension lines show the sizes and locations of features on a drawing.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_90",
+        title: "GET102 MOD 1",
+        text: "Visible lines take precedence over hidden lines and center lines in technical drawings.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_91",
+        title: "GET102 MOD 1",
+        text: "Hidden lines should join a visible line, except when extended from the visible line.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_92",
+        title: "GET102 MOD 1",
+        text: "Hidden lines should intersect to form L and T corners in a drawing.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_93",
+        title: "GET102 MOD 1",
+        text: "Hidden arcs should start on a center line in technical drawings.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_94",
+        title: "GET102 MOD 1",
+        text: "In circular views, short dashes of center lines cross at their intersections.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_95",
+        title: "GET102 MOD 1",
+        text: "For small holes, center lines are drawn as thin continuous lines.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_96",
+        title: "GET102 MOD 1",
+        text: "Center lines should not extend between views in a technical drawing.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_97",
+        title: "GET102 MOD 1",
+        text: "Center lines should always start and end with a long dash.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_98",
+        title: "GET102 MOD 1",
+        text: "A section view shows a hidden part of an object by removing a portion via a cutting plane.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_99",
+        title: "GET102 MOD 1",
+        text: "Conventional views may not clearly show complex internal features, which appear as hidden lines.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_100",
+        title: "GET102 MOD 1",
+        text: "Section views make internal features visible by using a cutting plane to remove part of the object.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_101",
+        title: "GET102 MOD 1",
+        text: "The cutting plane’s position is chosen to clearly show the object’s interior features.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_102",
+        title: "GET102 MOD 1",
+        text: "After selecting the cutting plane, the object is drawn with the portion on one side removed.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_103",
+        title: "GET102 MOD 1",
+        text: "Section lines indicate where the cutting plane passes through solid material in the object.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_104",
+        title: "GET102 MOD 1",
+        text: "Section line patterns can indicate the material of the object in assembly drawings.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_105",
+        title: "GET102 MOD 1",
+        text: "In detail drawings, continuous line hatching is commonly used for section lines.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_106",
+        title: "GET102 MOD 1",
+        text: "Hatching is drawn at a 45° angle to the view unless it conflicts with object lines.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_107",
+        title: "GET102 MOD 1",
+        text: "Other angles for hatching are used if 45° makes the drawing harder to read.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_108",
+        title: "GET102 MOD 1",
+        text: "The cutting plane is shown as a dashed or phantom line, thicker than normal object lines.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_109",
+        title: "GET102 MOD 1",
+        text: "Cutting plane lines may be omitted for circular objects if their location is clear.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_110",
+        title: "GET102 MOD 1",
+        text: "Cutting plane lines must be shown if their omission could cause confusion in the drawing.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_111",
+        title: "GET102 MOD 1",
+        text: "Arrowheads on cutting plane lines indicate the viewing direction for the section view.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_112",
+        title: "GET102 MOD 1",
+        text: "Arrowheads also show which part of the object is removed for the section view.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_113",
+        title: "GET102 MOD 1",
+        text: "If the cutting plane coincides with a centerline, the cutting plane line takes precedence.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_114",
+        title: "GET102 MOD 1",
+        text: "If arrowheads point left, the right side of the cutting plane is removed in the view.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_115",
+        title: "GET102 MOD 1",
+        text: "The section view is drawn to the right of the view showing the cutting plane.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_116",
+        title: "GET102 MOD 1",
+        text: "If arrowheads point up, the portion below the cutting plane is removed in the view.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_117",
+        title: "GET102 MOD 1",
+        text: "The section view is drawn below the view where the cutting plane is shown.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_118",
+        title: "GET102 MOD 1",
+        text: "Section views clarify complex internal features that are difficult to interpret with hidden lines.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_119",
+        title: "GET102 MOD 1",
+        text: "The cutting plane’s position varies based on the object’s symmetry and complexity.",
+        image: ""
+    },
+    {
+        id: "GET102_MOD1_120",
+        title: "GET102 MOD 1",
+        text: "Section lines in assembly drawings help identify different components and their materials.",
+        image: ""
+    }
+];
+
 export const GET102Shorts = [
     // Section 4.0: Isometric Drawing
     {
@@ -531,6 +1256,9 @@ export const GET102Shorts = [
         title: "GET102 MOD 5",
         text: "Irrespective of language barriers, the drawings can be effectively used in other countries, in addition to the country where they are prepared. Therefore, engineering drawing is a universal language for all engineers.",
         image: ""
-    }
+    },
+
+        ...get102ShortsSections
     // Additional entries for orthographic projection and other sections can be added similarly.
 ];
+

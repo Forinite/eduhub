@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56ec8f5e-6eaa-4260-84b3-9b34f35e35f9" name="Changes" comment="Index indication commit">
+    <list default="true" id="56ec8f5e-6eaa-4260-84b3-9b34f35e35f9" name="Changes" comment="Course change edit commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/component/shorts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/component/shorts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constant/courses/get102.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/constant/courses/get102.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +103,8 @@
       <workItem from="1758621148321" duration="4675000" />
       <workItem from="1758738783651" duration="3226000" />
       <workItem from="1758791822876" duration="4698000" />
-      <workItem from="1758829979758" duration="3958000" />
+      <workItem from="1758829979758" duration="4447000" />
+      <workItem from="1758835763266" duration="3457000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -185,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758833526453</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Course change edit commit">
+      <option name="closed" value="true" />
+      <created>1758833994919</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1758833994920</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +205,18 @@
     <MESSAGE value="Width fix commit" />
     <MESSAGE value="Height fix commit" />
     <MESSAGE value="Index indication commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Index indication commit" />
+    <MESSAGE value="Course change edit commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Course change edit commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/constant/courses/gst112.tsx</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
