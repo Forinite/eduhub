@@ -3,7 +3,7 @@
 import React, {useEffect, useRef, useState} from 'react'
 import Image from "next/image";
 import {GET102Shorts} from "@/constant/courses/get102";
-import {gst112Shorts, gst112ShortsM2} from "@/constant/courses/gst112";
+import {gst112Shorts, gst112ShortsLQ, gst112ShortsM2} from "@/constant/courses/gst112";
 
 
 const Shorts = () => {
@@ -60,7 +60,7 @@ const Shorts = () => {
     const navList = [
         {navName: "gst112", course: gst112Shorts },
         {navName: "gst Lect Note", course: gst112Shorts.slice(0,88) },
-        {navName: "gst MOD 2", course: gst112ShortsM2 },
+        {navName: "Likely Q's", course: gst112ShortsLQ },
     ]
     return (
         <div className="flex justify-center w-full bg-white text-black">

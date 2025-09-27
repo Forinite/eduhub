@@ -1807,7 +1807,368 @@ export const gst112ShortsM3 = [
     }
 ];
 
-
+export const gst112ShortsLQ = [
+    {
+        id: `GST112_LQ_1`,
+        title: `GST112 LQ`,
+        text: `Embarrassment and stigma are example of.......... sanctions under external social control in Nigeria \n ---Informal`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_2`,
+        title: `GST112 LQ`,
+        text: `The jihad between 1804 and and 1810 led to the establishment of.......... in the pre-colonial Nigeria \n ---Sokoto caliphate`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_3`,
+        title: `GST112 LQ`,
+        text: `A man who was sentenced into three months imprisonment for stealing a goat by a minna magistrates court, can be said to be have experienced a..........sanction \n ---Formal`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_4`,
+        title: `GST112 LQ`,
+        text: `The national flag of Nigeria is a symbol of.......... \n ---Unity`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_5`,
+        title: `GST112 LQ`,
+        text: `Nok is the.......... cultural material in Nigeria history \n ---Oldest`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_6`,
+        title: `GST112 LQ`,
+        text: `The ancestor of hausa people is called.......... \n ---Bayajida`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_7`,
+        title: `GST112 LQ`,
+        text: `The use of computer to write this examination implies that culture is.......... \n ---dynamic`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_8`,
+        title: `GST112 LQ`,
+        text: `A father who impregnated his biological daughter in uyo the capital of akwa ibon state was ostracised from the community for committing a.......... \n ---Taboo`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_9`,
+        title: `GST112 LQ`,
+        text: `Most of the forest people in Nigeria are linguistically of..........origin \n ---Niger congo`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_10`,
+        title: `GST112 LQ`,
+        text: `The process through which people learn the trait of their culture consciously or not is called.......... \n ---Enculturation`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_11`,
+        title: `GST112 LQ`,
+        text: `The nok culture was discovered by accident at a.......... site \n ---mining`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_12`,
+        title: `GST112 LQ`,
+        text: `Niger delta people are classified into .......... major group along linguistic and cultural lines \n ---Five`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_13`,
+        title: `GST112 LQ`,
+        text: `Niger delta of Nigeria has the largest..........forest in the world \n ---Mangrove`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_14`,
+        title: `GST112 LQ`,
+        text: `local governments is the.......... tier of government in Nigeria \n ---Third`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_15`,
+        title: `GST112 LQ`,
+        text: `History of pre colonial culture in Nigeria will not be complete without recourse to the..........culture \n ---Nok`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_16`,
+        title: `GST112 LQ`,
+        text: `The ooni of ife is often referred to as oluwaye which means the .......... representatives on the earth \n ---Yoruba`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_17`,
+        title: `GST112 LQ`,
+        text: `Forest peoples of Nigeria organized themselves into ...........and centralized political system \n ---segmentary`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_18`,
+        title: `GST112 LQ`,
+        text: `The language of the fulani in northern Nigeria is called..........? \n ---Fula`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_19`,
+        title: `GST112 LQ`,
+        text: `One common feature of the nok culture is that it is always represented by human.......... \n ---Head`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_20`,
+        title: `GST112 LQ`,
+        text: `Lokoja is a unique town in the history of Nigeria because of the.......... of two important rivers \n ---confluence`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_21`,
+        title: `GST112 LQ`,
+        text: `civilian regimes operate under the.......... \n ---constitution`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_22`,
+        title: `GST112 LQ`,
+        text: `According to history the people who have ever settled in any part pre colonial Nigeria did so in about the year \n ---8000BC`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_23`,
+        title: `GST112 LQ`,
+        text: `Most of the forest people of Nigeria practice farming and.......... economy \n ---Aqua`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_24`,
+        title: `GST112 LQ`,
+        text: `There are.......... key things that are used by non material culture to shape people's thought, feelings and belief \n ---Five`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_25`,
+        title: `GST112 LQ`,
+        text: `The Britain who gave the popular definition of culture was.......... by training \n ---Anthropologist`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_26`,
+        title: `GST112 LQ`,
+        text: `The predominant linguistic and cultural groups in the Niger delta region are.......... \n ---Edoid and ijoid`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_27`,
+        title: `GST112 LQ`,
+        text: `Nigeria value the following except.......... \n ---Corruption`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_28`,
+        title: `GST112 LQ`,
+        text: `The following are the autonomous indigenous group that occupied Nigeria prior to colonialism except.......... \n ---Mali empire`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_29`,
+        title: `GST112 LQ`,
+        text: `Which of the geo political zone is uyo \n ---South South`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_30`,
+        title: `GST112 LQ`,
+        text: `History of Nigeria states passed through..........stages \n ---Four`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_31`,
+        title: `GST112 LQ`,
+        text: `Air pollution as a result of chemical emissions from motor vehicle on our road is an example of.......... aspect of culture \n ---Maladaptive`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_32`,
+        title: `GST112 LQ`,
+        text: `.......... was once the capital of northern Nigeria \n ---Zungeru`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_33`,
+        title: `GST112 LQ`,
+        text: `There are .......... types of social control in Nigeria \n ---Three`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_34`,
+        title: `GST112 LQ`,
+        text: `values are either complementary or .......... \n ---conflicting`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_35`,
+        title: `GST112 LQ`,
+        text: `Succession to kingship among most of the ijo kingdoms is the pre colonial eral was based on.......... method \n ---selection`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_36`,
+        title: `GST112 LQ`,
+        text: `The nok people are of the..........tribe \n ---neolithic`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_37`,
+        title: `GST112 LQ`,
+        text: `In contemporary Nigeria, the ijo and itsekiri are predominantly.......... found in Nigeria \n ---Southern`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_38`,
+        title: `GST112 LQ`,
+        text: `Cocoa is produced by the.......... of the forest region \n ---Yoruba`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_39`,
+        title: `GST112 LQ`,
+        text: `Based on the categorization of indigenes or settlers in Nigeria some Nigerian becomes..........in their own country \n ---strangers`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_40`,
+        title: `GST112 LQ`,
+        text: `The leader of bornu empire was called.......... \n ---mai`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_41`,
+        title: `GST112 LQ`,
+        text: `The 1922 constitution in Nigeria was .......... called constitution \n ---Clifford`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_42`,
+        title: `GST112 LQ`,
+        text: `In Nigerian experience being an indigene or a settler is .......... identify \n ---permanent`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_43`,
+        title: `GST112 LQ`,
+        text: `In the economic relations of the people of the mangrove, environmental exposure determines their Choice of .......... \n ---occupation`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_44`,
+        title: `GST112 LQ`,
+        text: `Amasoma kingdom is in the.......... Niger delta zone \n ---eastern`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_45`,
+        title: `GST112 LQ`,
+        text: `The following are some of the ethics groups found in northern Nigeria except.......... \n ---ibibio`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_46`,
+        title: `GST112 LQ`,
+        text: `Former president goodluck Jonathan is the first Nigeria leader to come from.......... \n ---Niger delta`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_47`,
+        title: `GST112 LQ`,
+        text: `Traditional economic life of ijo ethnic groups hinges on..........bodies \n ---water`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_48`,
+        title: `GST112 LQ`,
+        text: `Igbo ukwu culture typified.......... in the pre colonial igbo society \n ---Wealth`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_49`,
+        title: `GST112 LQ`,
+        text: `A symbol stands for something.......... in a language \n ---Else`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_50`,
+        title: `GST112 LQ`,
+        text: `Nigeria became a Republican in the year.......... \n ---1963`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_51`,
+        title: `GST112 LQ`,
+        text: `Internal social control include the following except \n ---Taboos`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_52`,
+        title: `GST112 LQ`,
+        text: `The name Nigeria was suggested by the wife of lord lugard I person of .......... \n ---flora shaw`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_53`,
+        title: `GST112 LQ`,
+        text: `Culture has the following properties except.......... \n ---system`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_54`,
+        title: `GST112 LQ`,
+        text: `indirect rule system of government was introduced in 1914 by.......... \n ---lord lugard`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_55`,
+        title: `GST112 LQ`,
+        text: `The first settlers ever in Nigeria were found in the.......... part of the country \n ---southern western`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_56`,
+        title: `GST112 LQ`,
+        text: `The king of the Tiv people in the north central region is addressed as the.......... \n ---Tor tiv`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_57`,
+        title: `GST112 LQ`,
+        text: `The population definition of culture was done in the year 1871 by .......... \n ---Edward B Tylor`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_58`,
+        title: `GST112 LQ`,
+        text: `The following are types of norms in Nigeria except.......... \n ---forklores`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_59`,
+        title: `GST112 LQ`,
+        text: `Which of the following Nigeria leader died on the throne \n ---Sani abacha`,
+        image: ``
+    },
+    {
+        id: `GST112_LQ_60`,
+        title: `GST112 LQ`,
+        text: `..........aspect of culture are human creations \n ---folkways`,
+        image: ``
+    }
+];
 
 export const gst112Shorts = [
     // Unit 1: The Peoples of Southern Nigeria and their Culture in Pre-Colonial Times [Part I]
