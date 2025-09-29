@@ -3,14 +3,14 @@
 import React, {useEffect, useRef, useState} from 'react'
 import Image from "next/image";
 import {GET102Shorts} from "@/constant/courses/get102";
-import {gst112Shorts, gst112ShortsLQ, gst112ShortsM2} from "@/constant/courses/gst112";
+// import {gst112Shorts, gst112ShortsLQ, gst112ShortsM2} from "@/constant/courses/gst112";
+import {phy108ShortsPQ, phy108ShortsPQ2} from "@/constant/courses/phy108";
 
 
 const Shorts = () => {
     const containerRef = useRef<HTMLDivElement>(null);
     const [currentIndex, setCurrentIndex] = useState(0);
     // const [audioMap, setAudioMap] = useState<Record<string, string>>({});
-    const [courseShorts, setCourseShorts] = useState(gst112Shorts);
 
     useEffect(() => {
 
@@ -58,10 +58,13 @@ const Shorts = () => {
     // }, []);
 
     const navList = [
-        {navName: "gst112", course: gst112Shorts },
-        {navName: "gst Lect Note", course: gst112Shorts.slice(0,88) },
-        {navName: "Likely Q's", course: gst112ShortsLQ },
+        {navName: "phy108PQ -R-", course: phy108ShortsPQ },
+        {navName: "phy108PQ", course: phy108ShortsPQ2 },
+
     ]
+
+    const [courseShorts, setCourseShorts] = useState(navList[0].course);
+
     return (
         <div className="flex justify-center w-full bg-white text-black">
 
