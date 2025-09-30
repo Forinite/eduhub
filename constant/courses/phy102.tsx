@@ -1,3 +1,4 @@
+
 export const phy102ShortsPQ1 = [
     {
         id: "PHY102_PQ1_1",
@@ -841,6 +842,428 @@ export const phy102ShortsPQ2 = [
         id: "PHY102_PQ2_100",
         title: "PHY102 PQ2",
         text: "Determine the electric field intensity created by a charge of 100 C attracted by a force 30 N. \n ---0.3",
+        image: ""
+    }
+];
+
+export const phy102ShortsSUM = [
+    // Prefixes
+    {
+        id: "PHY102_SUM_1",
+        title: "PHY102 SUM",
+        text: "What is the value of the prefix Milli (m)? \n ---10^-3",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_2",
+        title: "PHY102 SUM",
+        text: "What is the value of the prefix Micro (μ)? \n ---10^-6",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_3",
+        title: "PHY102 SUM",
+        text: "What is the value of the prefix Nano (n)? \n ---10^-9",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_4",
+        title: "PHY102 SUM",
+        text: "What is the value of the prefix Deci (d)? \n ---10^-1",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_5",
+        title: "PHY102 SUM",
+        text: "What is the value of the prefix Pico (p)? \n ---10^-12",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_6",
+        title: "PHY102 SUM",
+        text: "What is the value of the prefix Femto (f)? \n ---10^-15",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_7",
+        title: "PHY102 SUM",
+        text: "What is the value of the prefix Kilo (k)? \n ---10^3",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_8",
+        title: "PHY102 SUM",
+        text: "What is the value of the prefix Mega (M)? \n ---10^6",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_9",
+        title: "PHY102 SUM",
+        text: "What is the value of the prefix Giga (G)? \n ---10^9",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_10",
+        title: "PHY102 SUM",
+        text: "What is the value of the prefix Deka (da)? \n ---10^1",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_11",
+        title: "PHY102 SUM",
+        text: "What is the value of the prefix Tera (T)? \n ---10^12",
+        image: ""
+    },
+    // Quantities and Units
+    {
+        id: "PHY102_SUM_12",
+        title: "PHY102 SUM",
+        text: "What is the symbol and unit for charge? \n ---Q, Coulombs (C)",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_13",
+        title: "PHY102 SUM",
+        text: "What is the symbol and unit for capacitance? \n ---C, Farads (F)",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_14",
+        title: "PHY102 SUM",
+        text: "What is the symbol and unit for electrostatic force? \n ---F, Newton (N)",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_15",
+        title: "PHY102 SUM",
+        text: "What is the symbol and unit for electric field? \n ---E, N/C or V/m",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_16",
+        title: "PHY102 SUM",
+        text: "What is the symbol and unit for voltage? \n ---V, Volts (V)",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_17",
+        title: "PHY102 SUM",
+        text: "What is the symbol and unit for electric potential? \n ---V, J/C or Nm/C",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_18",
+        title: "PHY102 SUM",
+        text: "What is the symbol and unit for electric potential energy? \n ---U, eV or Joules (J)",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_19",
+        title: "PHY102 SUM",
+        text: "What is the symbol and unit for surface charge density? \n ---σ, C/m^2",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_20",
+        title: "PHY102 SUM",
+        text: "What is the symbol and unit for line charge density? \n ---λ, C/m",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_21",
+        title: "PHY102 SUM",
+        text: "What is the symbol and unit for electric flux? \n ---Φ, Nm^2/C",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_22",
+        title: "PHY102 SUM",
+        text: "What is the symbol and unit for permittivity of free space? \n ---ε_0, C^2/Nm^2",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_23",
+        title: "PHY102 SUM",
+        text: "What is the symbol and unit for Coulomb’s constant? \n ---k, Nm^2/C^2",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_24",
+        title: "PHY102 SUM",
+        text: "What is the symbol and unit for dielectric constant? \n ---k_r, Unitless",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_25",
+        title: "PHY102 SUM",
+        text: "What is the unit for speed? \n ---m/s",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_26",
+        title: "PHY102 SUM",
+        text: "What is the unit for acceleration? \n ---m/s^2",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_27",
+        title: "PHY102 SUM",
+        text: "What is the symbol and unit for kinetic energy? \n ---KE, Joules (J)",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_28",
+        title: "PHY102 SUM",
+        text: "What is the symbol and unit for work done? \n ---W, Joules (J)",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_29",
+        title: "PHY102 SUM",
+        text: "What is the unit for energy density per volume? \n ---J/m^3",
+        image: ""
+    },
+    // Constants
+    {
+        id: "PHY102_SUM_30",
+        title: "PHY102 SUM",
+        text: "What is the value of the unit charge? \n ---1.6 × 10^-19 C",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_31",
+        title: "PHY102 SUM",
+        text: "What is the mass of a proton or neutron? \n ---1.67 × 10^-27 kg",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_32",
+        title: "PHY102 SUM",
+        text: "What is the mass of an electron? \n ---9.11 × 10^-31 kg",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_33",
+        title: "PHY102 SUM",
+        text: "What is the value of Coulomb’s constant (k)? \n ---9.0 × 10^9 Nm^2/C^2",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_34",
+        title: "PHY102 SUM",
+        text: "What is the value of the permittivity of free space (ε_0)? \n ---8.85 × 10^-12 C^2/Nm^2",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_35",
+        title: "PHY102 SUM",
+        text: "What is the approximate dielectric constant for air or vacuum? \n ---1",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_36",
+        title: "PHY102 SUM",
+        text: "What is the approximate radius of the Earth? \n ---6,400,000 m",
+        image: ""
+    },
+    // Surface Areas
+    {
+        id: "PHY102_SUM_37",
+        title: "PHY102 SUM",
+        text: "What is the surface area of a circle? \n ---π r^2",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_38",
+        title: "PHY102 SUM",
+        text: "What is the surface area of a sphere? \n ---4 π r^2",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_39",
+        title: "PHY102 SUM",
+        text: "What is the surface area of a cylinder? \n ---2 π r h",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_40",
+        title: "PHY102 SUM",
+        text: "What is the surface area of a cube? \n ---6 s^2",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_41",
+        title: "PHY102 SUM",
+        text: "What is the surface area of a square? \n ---L^2",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_42",
+        title: "PHY102 SUM",
+        text: "What is the surface area of a rectangle? \n ---L × B",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_43",
+        title: "PHY102 SUM",
+        text: "What is the surface area of a cuboid? \n ---2(xy + xz + yz)",
+        image: ""
+    },
+    // Formulae
+    {
+        id: "PHY102_SUM_44",
+        title: "PHY102 SUM",
+        text: "What are the formulas for quantity of charge (Q)? \n ---Q = ne, Q = I t, Q = C V",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_45",
+        title: "PHY102 SUM",
+        text: "What are the formulas for electrostatic force (F)? \n ---F = q E, F = k q_1 q_2 / r^2, F = q_1 q_2 / (4 π ε_0 r^2)",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_46",
+        title: "PHY102 SUM",
+        text: "What are the formulas for electric field intensity (E)? \n ---E = F / q, E = k q / r^2, E = q / (4 π ε_0 r^2), E = V / r",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_47",
+        title: "PHY102 SUM",
+        text: "What are the formulas for electric flux (Φ)? \n ---Φ = E A, Φ = E A cos θ",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_48",
+        title: "PHY102 SUM",
+        text: "What is the electric flux through a sphere? \n ---Φ = q / ε_0",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_49",
+        title: "PHY102 SUM",
+        text: "What is the formula for surface charge density (σ)? \n ---σ = Q_enclosed / A, σ = E ε_0",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_50",
+        title: "PHY102 SUM",
+        text: "What is the formula for line charge density (λ) through a cylinder? \n ---λ = Q_enclosed / L, λ = 2 π ε_0 R E",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_51",
+        title: "PHY102 SUM",
+        text: "What is the electric field for an infinite plane sheet of charge? \n ---E = Q_enclosed / (2 A ε_0), σ = 2 E ε_0",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_52",
+        title: "PHY102 SUM",
+        text: "What are the formulas for electric field potential (V)? \n ---V = W / q, V = F r / q, V = k q / r, V = E r",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_53",
+        title: "PHY102 SUM",
+        text: "What are the formulas for electric potential energy (PE)? \n ---PE = q V, PE = q E r, PE = F r, PE = k q^2 / r",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_54",
+        title: "PHY102 SUM",
+        text: "What is the formula for potential difference from point A to B? \n ---V_AB = V_B - V_A",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_55",
+        title: "PHY102 SUM",
+        text: "What is the work done by a charge in an electric field? \n ---W = q V, W = q E r",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_56",
+        title: "PHY102 SUM",
+        text: "What is the work done by two charges in an electric field? \n ---W = k q_1 q_2 / r, W = k q^2 / r (identical charges)",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_57",
+        title: "PHY102 SUM",
+        text: "What is the speed of an electron or proton in an electric field? \n ---v = √(2 q V / m)",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_58",
+        title: "PHY102 SUM",
+        text: "What are the formulas for kinetic energy of an electron or proton? \n ---KE = ½ m v^2, KE = q V",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_59",
+        title: "PHY102 SUM",
+        text: "What is the acceleration of a charge in an electric field? \n ---a = q V / (m r), a = q E / m",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_60",
+        title: "PHY102 SUM",
+        text: "What are the formulas for capacitance (C)? \n ---C = Q / V_AB, C = A ε_0 / r (parallel plate), C = (4 π ε_0 l) / (2 ln(r_b / r_a)) (cylindrical), C = (4 π ε_0 R r) / (R - r) (spherical)",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_61",
+        title: "PHY102 SUM",
+        text: "What are the formulas for capacitors in series and parallel? \n ---Series: 1/C_T = 1/C_1 + 1/C_2 + …, Parallel: C_T = C_1 + C_2 + …",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_62",
+        title: "PHY102 SUM",
+        text: "What is the formula for percentage capacitance in a circuit? \n ---%C = (C_n / C_T) × 100",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_63",
+        title: "PHY102 SUM",
+        text: "What are the formulas for energy stored in a capacitor? \n ---U = ½ Q V, U = ½ Q^2 / C, U = ½ C V^2",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_64",
+        title: "PHY102 SUM",
+        text: "What is the formula for energy density in a capacitor? \n ---Energy density = ½ E^2 ε_0, ½ k_r E^2 ε_0 (dielectrics)",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_65",
+        title: "PHY102 SUM",
+        text: "What is the relationship between capacitance with and without dielectrics? \n ---C > C_0, where C_0 = Q / V_0, C = Q / V",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_66",
+        title: "PHY102 SUM",
+        text: "What is the formula for the dielectric constant? \n ---k_r = C / C_0 = V_0 / V = ε / ε_0",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_67",
+        title: "PHY102 SUM",
+        text: "What is the formula for induced surface charge density? \n ---σ_i = σ (1 - 1 / k_r)",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_68",
+        title: "PHY102 SUM",
+        text: "What is the formula for charge density on dielectrics? \n ---σ = ε_0 (E - E_0)",
+        image: ""
+    },
+    {
+        id: "PHY102_SUM_69",
+        title: "PHY102 SUM",
+        text: "What is the formula for dielectric strength? \n ---V_max = E_max r",
         image: ""
     }
 ];

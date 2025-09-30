@@ -5,7 +5,7 @@ import Image from "next/image";
 import {GET102Shorts} from "@/constant/courses/get102";
 // import {gst112Shorts, gst112ShortsLQ, gst112ShortsM2} from "@/constant/courses/gst112";
 import {phy108ShortsPQ, phy108ShortsPQ2} from "@/constant/courses/phy108";
-import {phy102ShortsPQ1, phy102ShortsPQ2} from "@/constant/courses/phy102";
+import {phy102ShortsPQ1, phy102ShortsPQ2, phy102ShortsSUM} from "@/constant/courses/phy102";
 
 
 const Shorts = () => {
@@ -61,6 +61,7 @@ const Shorts = () => {
     const navList = [
         {navName: "phy102_PQ1", course: phy102ShortsPQ1 },
         {navName: "phy102_PQ2", course: phy102ShortsPQ2 },
+        {navName: "phy102_SUM", course: phy102ShortsSUM },
 
     ]
 
